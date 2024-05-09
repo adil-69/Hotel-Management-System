@@ -9,7 +9,7 @@ public class UpdateTable {
     public static void update_table1(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql = "select * from room";
             ResultSet rs = st.executeQuery(sql);
@@ -34,7 +34,7 @@ public class UpdateTable {
     public static void update_table2(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql = "select * from customer";
             ResultSet rs = st.executeQuery(sql);
@@ -60,7 +60,7 @@ public class UpdateTable {
     public static void update_table3(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql = "select * from employee";
             ResultSet rs = st.executeQuery(sql);
@@ -86,7 +86,7 @@ public class UpdateTable {
     public static void update_table4(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql = "select * from account";
             ResultSet rs = st.executeQuery(sql);
@@ -111,7 +111,7 @@ public class UpdateTable {
     public static void update_table5(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql = "select * from restaurant";
             ResultSet rs = st.executeQuery(sql);
@@ -134,7 +134,7 @@ public class UpdateTable {
     public static void update_dashBoard(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","passroot");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_management_system?serverTimezone=Africa/Casablanca","root","");
             Statement st = con.createStatement();
             String sql1 = "select count(*) from room";
             ResultSet rs1 = st.executeQuery(sql1);
